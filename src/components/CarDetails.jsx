@@ -20,7 +20,7 @@ const CarDetails = ({ car }) => {
 </h2>
 
         <p className={styles.location}>
-  <img src="/public/Location.svg" alt="Location" className={styles.icon} />
+  <img src="/Location.svg" alt="Location" className={styles.icon} />
   <span>{car.address}</span>
   <span className={styles.mileage}>Mileage: {car.mileage.toLocaleString()} km</span>
 </p>
@@ -34,7 +34,7 @@ const CarDetails = ({ car }) => {
           <ul>
             {car.rentalConditions?.map((condition, index) => (
               <li key={index}>
-                <img src="/public/check-circle.svg" alt="Check" className={styles.icon} />
+                <img src="/check-circle.svg" alt="Check" className={styles.icon} />
                 {condition}
               </li>
             ))}
@@ -44,19 +44,19 @@ const CarDetails = ({ car }) => {
         <div className={styles.section}>
           <h3>Car Specifications:</h3>
           <p>
-          <img src="/public/calendar.svg" alt="Calendar" className={styles.icon} />
+          <img src="/calendar.svg" alt="Calendar" className={styles.icon} />
           Year: {car.yea}
         </p>
           <p>
-            <img src="/public/car.svg" alt="Car type" className={styles.icon} />
+            <img src="/car.svg" alt="Car type" className={styles.icon} />
             Type: {car.type}
           </p>
           <p>
-            <img src="/public/fuel-pump.svg" alt="Fuel" className={styles.icon} />
+            <img src="/fuel-pump.svg" alt="Fuel" className={styles.icon} />
             Fuel Consumption: {car.fuelConsumption}
           </p>
           <p>
-            <img src="/public/gear.svg" alt="Engine" className={styles.icon} />
+            <img src="/gear.svg" alt="Engine" className={styles.icon} />
             Engine Size: {car.engineSize}
           </p>
         </div>
@@ -66,7 +66,7 @@ const CarDetails = ({ car }) => {
           <ul>
             {car.accessories.map((accessory, index) => (
               <li key={index}>
-                <img src="/public/check-circle.svg" alt="Check" className={styles.icon} />
+                <img src="/check-circle.svg" alt="Check" className={styles.icon} />
                 {accessory}
               </li>
             ))}
