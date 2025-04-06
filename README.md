@@ -1,12 +1,44 @@
-# React + Vite
+PROJECT DESCRIPTION: "RentalCar" is a web application for car rentals. Users can browse the catalog of available cars, filter them based on various criteria, and view detailed information about each vehicle. A booking form is also available for reserving a car.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MAIN FEATURES:
 
-Currently, two official plugins are available:
+Home Page - Contains a banner with a call to action.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Car Catalog - Displays all available cars with filtering options by brand, price, and mileage.
 
-## Expanding the ESLint configuration
+Car Details Page - Provides detailed information, photos, specifications, and a booking form.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Filtering - Search for cars by brand, price, and mileage (filtering is performed on the backend).
+
+Favorites - Users can add cars to a favorites list, which persists after page reloads.
+
+Pagination - Backend pagination is implemented with a "Load More" button.
+
+Booking Form - Users can book a car by filling out the form.
+
+TECHNOLOGIES:
+
+Framework - React (Vite)
+
+State Management - Redux
+
+Routing - React Router
+
+API Requests - Axios
+
+Styling - CSS Modules
+
+Deployment - Vercel
+
+INSTALLATION AND SETUP:
+
+1. Clone the Repository - git clone git@github.com:KarinaShcherbakova/rentalcar-frontend.git
+
+2. Install Dependencies - npm install
+
+3. Start the Development Server - npm run dev
+
+API: The project uses a backend API to retrieve car data.
+API Documentation - https://car-rental-api.goit.global/api-docs/
+
+AUTHOR: Karina Shcherbakova - https://www.linkedin.com/in/karinashcherbakova/

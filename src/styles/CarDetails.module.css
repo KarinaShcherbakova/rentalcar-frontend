@@ -1,0 +1,104 @@
+.details {
+  flex: 2;
+}
+
+.info h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20;
+  margin-bottom: 8px;
+  color: #101828;
+}
+
+.id {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8D929A;
+  margin-left: 16px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.location {
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.mileage {
+  margin-left: 16px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3470FF;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+  margin-top: 0;
+  margin-bottom: 68px;
+}
+
+.section {
+margin-top: 0; 
+margin-bottom: 110px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-top: 0;
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+.section p {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+  color: #101828;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
